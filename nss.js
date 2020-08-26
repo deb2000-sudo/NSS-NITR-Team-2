@@ -1,3 +1,4 @@
+// back to top scroll
 $(document).ready(function(){
     $(window).scroll(function () {
         if ($(this).scrollTop() > 300) {
@@ -16,3 +17,4 @@ $('#back-to-top').click(function () {
 $('#back-to-top').tooltip('show');
 
 });
+// on scroll effect trigger
