@@ -1,0 +1,171 @@
+/*Nav Bar*/
+
+.navbar{
+
+	background-color: #061566;
+}
+
+.navbar-nav li{
+
+	padding-right: 2.5em;
+	color: #000000;
+}
+
+.navbar-nav a{
+
+	letter-spacing: 0.15em;
+  font-size:160%;
+
+
+}
+
+.nav-link:hover {
+
+	background-color: #000000;
+	color: #E5FF00;
+}
+.nav-item{
+  padding-top:1.15%;
+}
+
+h1{
+    text-align:center;
+    font-size:300%;
+    color:#0f2a52;
+    padding-bottom:1.3%;
+}
+section{
+  width:40%;
+  display:inline-block;
+  margin:2%;
+  background:#80A4EB;
+  color:white;
+  border-radius:5px;
+  overflow:auto;
+  resize:both;
+}
+
+section h2{
+  font-size:200%;
+  font-weight:bold;
+  color:white;
+  text-align:center;
+}
+p{
+  font-size:160%;
+  color:white;
+  padding:1.5%;
+}
+.left-section{
+  float:left;
+  margin-left:7%;
+}
+.container{
+  width:50%;
+}
+.up-events{
+  font-size:170%;
+  font-weight:bold;
+  color:white;
+  background:#aec1e8;
+  display:block;
+  width:100%;
+  overflow:auto;
+  resize:both;
+
+}
+
+
+/*Dropdown Menu*/
+
+.dropdown-menu{
+
+	background-color: #ACB7F1;
+}
+
+.dropdown:hover .dropdown-menu{
+	display: block;
+}
+
+/*Footer*/
+
+footer{
+background-color:#3f3f3f;
+color: #d5d5d5;
+padding-top: 2rem;
+}
+
+hr.light{
+border-top: 1px solid #d5d5d5;
+width: 75%;
+margin-top: 0.8rem;
+margin-bottom: 1rem;
+}
+
+footer a{
+color: #d5d5d5;
+}
+
+.contact, .address{
+
+  padding-right: 4em;
+  text-align: center;
+}
+
+.form{
+
+  padding-left: 3em;
+  padding-right: 7em;
+}
+
+.copyrights{
+  width:200%;
+  background-color: #2A2A2A;
+  text-align: center;
+  color:#ffffff;
+  display: block;
+}
+
+/*Media Queries for Footer*/
+
+@media (max-width: 793px){
+
+.copyrights{
+  
+  height: 5em;
+}
+
+}
+
+@media (max-width: 432px){
+
+.copyrights{
+  
+  height: 6em;
+}
+
+}
+
+/* Go to top button*/
+
+.back-to-top {
+
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  display:none;
+}
+
+.item :active p{
+  color:black;
+  font-weight:bold;
+  font-size:150%;
+  background:#8db6f7
+}
+.item p{
+   color:black;
+  font-weight:bold;
+  font-size:150%;
+  background:#8db6f7;
+}
